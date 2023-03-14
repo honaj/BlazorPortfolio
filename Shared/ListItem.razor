@@ -1,0 +1,12 @@
+<h3>@Name</h3>
+<p>@Description</p>
+<img src="@thumbnail" alt="thumbnail"/>
+
+@code {
+    [Parameter]
+    public string? Name { get; set; }
+    [Parameter]
+    public string? Description { get; set; }
+    [Parameter]
+    public string thumbnail { get; set; } = "https://www.w3schools.com/w3images/lights.jpg";
+}
